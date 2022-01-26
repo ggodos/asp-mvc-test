@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.1" />
+    <Watch Include="Views/**/*;Controllers/**/*;Models/**/*" Exclude="obj/**/*;bin/**/*"/>
   </ItemGroup>
 
 </Project>
